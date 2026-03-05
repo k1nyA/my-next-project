@@ -4,7 +4,7 @@ import styles from './index.module.css';
 import Category from '@/app/_components/Category';
 import Date from '@/app/_components/Date';
 
-import { News } from '@/app/_components/_libs/microcms';
+import { News } from '@/app/_libs/microcms';
 
 type Props = {
     news: News[];
