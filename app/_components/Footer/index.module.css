@@ -1,0 +1,37 @@
+.footer {
+    padding: 16px 24px;
+    text-align: center;
+    color: var(--color-text-sub);
+    font-size: var(--text-body-sm);
+    margin-top: 80px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: var(--text-body);
+    white-space: nowrap;
+}
+
+.copyright {
+    font-size: var(--text-caption);
+    color: var(--color-text-sub);
+}
+
+@media (max-width: 640px) {
+    .items {
+        flex-wrap: wrap;
+        gap: 8px 0;
+    }
+
+    .item {
+        width: 50%;
+    }
+}
